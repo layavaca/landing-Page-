@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../CSS/carrucel.css">
     <link rel="stylesheet" type="text/css" href="../CSS/contenido.css">
+    <link rel="stylesheet" href="../CSS/contenido.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
+
 
     <title> Universidad Politecnica Salesiana</title>
 
@@ -14,16 +17,36 @@
 
 <body>
 
-    <section class="cabezera">
-        <nav class="menu">
-            <nav class="menu">
-                <h4>universidad politecnica saleciana</h4>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="malla.html">Malla</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <!--navbar-->
+
+    <section class="container_navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <h4>Universidad Politecnica Salesiana<< /h4>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="malla.html">Malla</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pagos.html">Pagos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="formulario.html">Contactanos</a>
+                                </li>
+                            </ul>
+                            </li>
+                            </ul>
+                        </div>
+            </div>
         </nav>
     </section>
 
@@ -68,7 +91,9 @@
 
     <section class="interes">
         <div class="malla">
-           <h3> <p style="text-align:center">Malla Curricular</p></h3>
+            <h3>
+                <p style="text-align:center">Malla Curricular</p>
+            </h3>
         </div>
         <ul class="cards">
             <li class="cards__item">
@@ -88,7 +113,7 @@
                             <li> Metodología de la investigación</li>
                         </ul>
                         </p>
-                        <button class="btn btn--block card__btn">Leea</button>
+                        <button class="btn btn--block card__btn">Leer mas</button>
                     </div>
                 </div>
             </li>
@@ -106,7 +131,7 @@
                             <li>Trabajo de titulación</li>
                         </ul>
                         </p>
-                        <button class="btn btn--block card__btn">Button</button>
+                        <button class="btn btn--block card__btn">Leer mas</button>
                     </div>
                 </div>
             </li>
@@ -125,7 +150,7 @@
 
                         </ul>
                         </p>
-                        <button class="btn btn--block card__btn">Button</button>
+                        <button class="btn btn--block card__btn">Leer mas</button>
                     </div>
                 </div>
             </li>
@@ -141,8 +166,9 @@
                             <li>Patrones de integración empresarial</li>
                             <li> Sistemas distribuidos avanzados</li>
                             <li> Seguridad informática</li>
-                        </ul></p>
-                        <button class="btn btn--block card__btn">Button</button>
+                        </ul>
+                        </p>
+                        <button class="btn btn--block card__btn">Leer mas</button>
                     </div>
                 </div>
             </li>
@@ -154,21 +180,21 @@
                     <div class="card__content">
                         <div class="card__title">GRUPOS Y LÍNEAS DE INVESTIGACIÓN</div>
                         <p class="card__text">
-                            <h2>Líneas de investigación:</h2>
-                            <ul>
-                                <li> Ingeniería de Software</li>
-                                <li> Seguridad y Criptografía</li>
-                                <li> Computación en la Nube</li>
-                                <li> Computación de Alto Rendimiento</li>
-                            </ul>
-                            <h2>Grupos de investigación:</h2>
-                            <ul>
-                                <li>                                    Grupo de Investigación en Sistemas de Telecomunicaciones</li>
+                        <h2>Líneas de investigación:</h2>
+                        <ul>
+                            <li> Ingeniería de Software</li>
+                            <li> Seguridad y Criptografía</li>
+                            <li> Computación en la Nube</li>
+                            <li> Computación de Alto Rendimiento</li>
+                        </ul>
+                        <h2>Grupos de investigación:</h2>
+                        <ul>
+                            <li> Grupo de Investigación en Sistemas de Telecomunicaciones</li>
                             <li>Grupo de Investigación en Telecomunicaciones y Telemática
-                                </li>
-                            </ul>
-                            </p>
-                        <button class="btn btn--block card__btn" href="malla.html">Button</button>
+                            </li>
+                        </ul>
+                        </p>
+                        <button class="btn btn--block card__btn" href="malla.html">Leer mas</button>
                     </div>
                 </div>
             </li>
