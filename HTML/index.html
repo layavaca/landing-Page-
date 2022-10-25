@@ -1,26 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/carrucel.css">
 
-    <title>Universidad Politecnica Salesiana</title>
+    <title> Universidad Politecnica Salesiana</title>
 </head>
+
 <body>
     <section class="cabezera">
         <nav class="menu">
             <nav class="menu">
+                <h4>universidad politecnica saleciana</h4>
                 <ul>
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Malla</a></li>
-                  <li><a href="#">Pagos</a></li>
-                  <li><a href="#">Contacto</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="malla.html">Malla</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
-              </nav>
-              
+            </nav>
         </nav>
     </section>
-    
+
+    <section class="carrucel">
+
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="slide-item">
+                    <img src="https://www.migueltroyano.com/wp-content/uploads/2020/10/embeddingApi_7.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="https://www.migueltroyano.com/wp-content/uploads/2020/09/postgres_copy.png">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="https://www.migueltroyano.com/wp-content/uploads/2020/09/excel_guardar_como_csv.jpg">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="interes">
+        <div class="docs-demo columns">
+            <div class="ccccc ">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../Imagenes/descarga.jpg" class="img-responsive">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h5">.hola</div>
+                        <div class="card-subtitle text-gray">mundo</div>
+                    </div>
+                    <div class="card-body">
+                        caso perdido
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary" href="#malla.html">Leer más...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </script>
+    <div class="n">
+        <a href="#" title="Ir arriba">
+            <img alt="Ir arriba" border="0"
+                src="https://2.bp.blogspot.com/_qgZA1ny_dAs/S0QFsV1WD7I/AAAAAAAADhs/ZBKrnpzqBrk/s200/arrow8a.png"
+                style=position:fixed;bottom:0;right:0; />
+        </a>
+    </div>
+
 </body>
+
 </html>
