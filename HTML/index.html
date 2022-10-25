@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../CSS/carrucel.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/contenido.css">
 
     <title> Universidad Politecnica Salesiana</title>
+
 </head>
 
 <body>
+
     <section class="cabezera">
         <nav class="menu">
             <nav class="menu">
@@ -31,11 +34,11 @@
                 <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
                     checked="checked">
                 <div class="slide-item">
-                    <img src="https://www.migueltroyano.com/wp-content/uploads/2020/10/embeddingApi_7.jpg">
+                    <img src="../Imagenes/carrucel1.jpg">
                 </div>
                 <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
-                    <img src="https://www.migueltroyano.com/wp-content/uploads/2020/09/postgres_copy.png">
+                    <img src="../Imagenes/carrucel2.jpg">
                 </div>
                 <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
                 <div class="slide-item">
@@ -64,26 +67,115 @@
     </section>
 
     <section class="interes">
-        <div class="docs-demo columns">
-            <div class="ccccc ">
+        <div class="malla">
+           <h3> <p style="text-align:center">Malla Curricular</p></h3>
+        </div>
+        <ul class="cards">
+            <li class="cards__item">
                 <div class="card">
-                    <div class="card-image">
-                        <img src="../Imagenes/descarga.jpg" class="img-responsive">
+                    <div class="card__image card__image--fence">
+                        <img src="../Imagenes/maestria1.jpg">
                     </div>
-                    <div class="card-header">
-                        <div class="card-title h5">.hola</div>
-                        <div class="card-subtitle text-gray">mundo</div>
-                    </div>
-                    <div class="card-body">
-                        caso perdido
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-primary" href="#malla.html">Leer más...</button>
+                    <div class="card__content">
+                        <div class="card__title">PRIMER PERÍODO ACADÉMICO</div>
+                        <p class="card__text">
+                        <ul>
+                            <li>Diseño de arquitecturas de sistemas</li>
+                            <li> Ingeniería de software</li>
+                            <li> Desarrollo de aplicaciones empresariales</li>
+                            <li> Patrones de diseño de APIs</li>
+                            <li> Patrones de diseño de software</li>
+                            <li> Metodología de la investigación</li>
+                        </ul>
+                        </p>
+                        <button class="btn btn--block card__btn">Leea</button>
                     </div>
                 </div>
-            </div>
-        </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image card__image--river">
+                        <img src="../Imagenes/maestria2.jpg">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__title">SEGUNDO PERÍODO ACADÉMICO</div>
+                        <p class="card__text">
+                        <ul>
+                            <li>Diseño y desarrollo de software seguro</li>
+                            <li>Automatización de los procesos de software</li>
+                            <li>Trabajo de titulación</li>
+                        </ul>
+                        </p>
+                        <button class="btn btn--block card__btn">Button</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image card__image--record">
+                        <img src="../Imagenes/maestria3.jpg">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__title">MENCIÓN DESARROLLO WEB Y MÓVIL</div>
+                        <p class="card__text">
+                        <ul>
+                            <li>Desarrollo orientado a inteligencia de negocios</li>
+                            <li>Desarrollo de aplicaciones móviles</li>
+                            <li>Diseño de interfaces y experiencia de usuario</li>
+
+                        </ul>
+                        </p>
+                        <button class="btn btn--block card__btn">Button</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image card__image--record">
+                        <img src="../Imagenes/maestria4.jpg">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__title">MENCIÓN DISEÑO DE ARQUITECTURA DE SISTEMAS</div>
+                        <p class="card__text">
+                        <ul>
+                            <li>Patrones de integración empresarial</li>
+                            <li> Sistemas distribuidos avanzados</li>
+                            <li> Seguridad informática</li>
+                        </ul></p>
+                        <button class="btn btn--block card__btn">Button</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image card__image--flowers">
+                        <img src="../Imagenes/maestria5.jpg">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__title">GRUPOS Y LÍNEAS DE INVESTIGACIÓN</div>
+                        <p class="card__text">
+                            <h2>Líneas de investigación:</h2>
+                            <ul>
+                                <li> Ingeniería de Software</li>
+                                <li> Seguridad y Criptografía</li>
+                                <li> Computación en la Nube</li>
+                                <li> Computación de Alto Rendimiento</li>
+                            </ul>
+                            <h2>Grupos de investigación:</h2>
+                            <ul>
+                                <li>                                    Grupo de Investigación en Sistemas de Telecomunicaciones</li>
+                            <li>Grupo de Investigación en Telecomunicaciones y Telemática
+                                </li>
+                            </ul>
+                            </p>
+                        <button class="btn btn--block card__btn" href="malla.html">Button</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </section>
+
+
 
     </script>
     <div class="n">
@@ -93,7 +185,6 @@
                 style=position:fixed;bottom:0;right:0; />
         </a>
     </div>
-
 </body>
 
 </html>
